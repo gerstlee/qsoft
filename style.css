@@ -107,7 +107,7 @@ h1 {
     margin: 20px -15px;
 }
 
-.partners__item {
+.partners__link {
       /* width: 23%; */
     width: calc(24.84% - 30px);
     height: 120px;
@@ -117,9 +117,14 @@ h1 {
     position: relative;
     margin: 15px;
     display: flex;
-  }
+}
 
-.partners__link {
+.partners__link:hover{
+    background: #FFFFFF;
+    box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(164, 164, 164, 0.03);
+}
+
+.partners__logo {
     display:block;
     margin:auto;
 }
