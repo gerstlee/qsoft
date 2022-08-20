@@ -55,9 +55,30 @@
     }
 }
 
-@media (max-width:375px){
+@media only screen and (max-width:375px){
     .container{
         max-width: none;
+    }
+    .partners__link{
+        max-width: 90%;
+        flex: 0 0 90%;
+        max-height: 140px;
+    }
+    .header__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header__logo{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .header__input{
+        max-width: 100%;
+        flex: 0 0 100%;
+        border-radius: none;
+    }
+    .header__user{
+        display: none;
     }
 }
 
@@ -88,7 +109,6 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    position: relative;
   }
 
 .header__logo {
