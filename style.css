@@ -21,54 +21,73 @@
     padding: 0;
   }
 
-  .container{
-      max-width: 1240px;
-      margin: 0px auto;
-      padding: 0px auto;
-      box-sizing: border-box;
-  }
+.container{
+    max-width: 1240px;
+    margin: 0px auto;
+    padding: 0px auto;
+    box-sizing: border-box;
+}
 
   /*Header*/
 
-  .header__wrapper {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      margin: 20px auto;
+.header__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    position: relative;
   }
 
-  .header__logo {
+.header__logo {
     height: 30px;
-  }
+    width: 10.9%;
+    align-self: center;
+}
 
-  .header__input {
-      height: 40px;
-  }
+/* .lopa {
+    content: "";
+    background-image: url(img/loop.png);
+    z-index: 100;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: -200px;
+} */
 
-  .header__user {
-      display: flex;
-      justify-content: space-between;
-      height: 40px;
-  }
-
-  .header__username {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+.header__input {
+    width: 61%;
+    height: 40px;
+    padding: 0px 40px;
+    border: 1px solid #EBEBF1;
+    border-radius: 5px;
+    color: #BBC4D6;
     font-size: 14px;
-    line-height: 120%;
-    color: #768298;
-  }
+    align-self: flex-start;
+}
 
-  .header__avatar {
+.header__user {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 10.4%;
+}
+
+.header__username {
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #768298;
+    align-self: center;
+}
+
+.header__avatar {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-  }
+}
 
   /*Body*/
 
-  h1 {
+h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -76,30 +95,30 @@
     line-height: 160%;
     text-transform: uppercase;
     color: #121920;
-  }
+}
 
-  .partners {
-      width: 100%;
-  }
+.partners {
+    width: 100%;
+}
 
-  .partners__list {
+.partners__list {
     display: flex;
     flex-wrap: wrap;
     margin: 20px -15px;
-  }
+}
 
-  .partners__item {
+.partners__item {
       /* width: 23%; */
-      width: calc(24.84% - 30px);
-      height: 120px;
-      background: #FFFFFF;
-      border: 1px solid #EBEBF1;
-      border-radius: 5px;
-      position: relative;
-      margin: 15px;
-      display: flex;
+    width: calc(24.84% - 30px);
+    height: 120px;
+    background: #FFFFFF;
+    border: 1px solid #EBEBF1;
+    border-radius: 5px;
+    position: relative;
+    margin: 15px;
+    display: flex;
   }
 
-  .partners__link {
-      position: absolute;
-  }
+.partners__link {
+    position: absolute;
+}
