@@ -94,6 +94,7 @@ h1 {
     line-height: 160%;
     text-transform: uppercase;
     color: #121920;
+    margin-top: 70px;
 }
 
 .partners {
@@ -119,5 +120,6 @@ h1 {
   }
 
 .partners__link {
-    position: absolute;
+    display:block;
+    margin:auto;
 }
