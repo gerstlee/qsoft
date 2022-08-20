@@ -45,7 +45,7 @@
   }
 
 .header__logo {
-    margin: 20px auto;
+    margin: 20px 0;
     height: 30px;
     width: 10.9%;
     align-self: center;
@@ -64,7 +64,7 @@
 }
 
 .header__user {
-    margin: 20px auto;
+    margin: 20px 0;
     display: flex;
     justify-content: space-between;
     height: 40px;
@@ -76,6 +76,7 @@
     font-size: 14px;
     color: #768298;
     align-self: center;
+    text-decoration: none;
 }
 
 .header__avatar {
