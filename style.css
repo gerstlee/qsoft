@@ -59,26 +59,20 @@
     .container{
         max-width: none;
     }
-    .partners__link{
-        max-width: 90%;
-        flex: 0 0 90%;
-        max-height: 140px;
-    }
-    .header__wrapper{
-        display: flex;
+    .header__wrapper {
         flex-wrap: wrap;
+        justify-content: flex-start;
     }
-    .header__logo{
+    .header__logo {
         max-width: 100%;
         flex: 0 0 100%;
     }
-    .header__input{
+    .header__user {
+        display: none !important;
+    }
+    .header__input {
         max-width: 100%;
         flex: 0 0 100%;
-        border-radius: none;
-    }
-    .header__user{
-        display: none;
     }
 }
 
@@ -100,6 +94,7 @@
 
 .header {
     width: 100%;
+    flex: 0 0 100%;
     padding: 0;
     margin: 0;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
@@ -107,6 +102,7 @@
 
 .header__wrapper {
     width: 100%;
+    flex: 0 0 100%;
     display: flex;
     justify-content: space-between;
   }
@@ -152,6 +148,7 @@
     height: 40px;
     border-radius: 50%;
 }
+
 
   /*Body*/
 
